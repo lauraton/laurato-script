@@ -12,7 +12,12 @@ const numero = 5;
 // Actividad 5 (Variables)
 let acumulador1 = 0;
 // Actividad 6 (Variables)
-
+const estudiante = {
+    nombre1: "Lautaro",
+    apellido1: "Villalba",
+    nota1: 10,
+    aprobo: "aprobó"
+};
 // Actividad 7 (Variables)
 
 // Actividad 8 (Variables)
@@ -65,3 +70,5 @@ for (let i3 = 1; i3 <= 20; i3++) {
         console.log(`El número ${i3} es par`)
     }
 }
+
+console.log(`El estudiante ${estudiante.nombre1} ${estudiante.apellido1} obtuvo una calificación de ${estudiante.nota1} y ${estudiante.aprobo} con una buena calificación.`)
