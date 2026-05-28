@@ -10,7 +10,7 @@ const edad = 23;
 // Actividad 4 (Variables)
 const numero = 5;
 // Actividad 5 (Variables)
-
+let acumulador1 = 0;
 // Actividad 6 (Variables)
 
 // Actividad 7 (Variables)
@@ -50,3 +50,8 @@ else {
 for (let i = 1; i <= 10; i++) {
     console.log(`${numero} multiplicado ${i} es ${numero * i}`)
 }
+
+for (let i2 = 1; i2 <= 100; i2++) {
+    acumulador1 = (acumulador1 + i2);
+}
+console.log(`El resultado es: ${acumulador1}`)
