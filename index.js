@@ -83,5 +83,5 @@ console.log(`El estudiante ${estudiante.nombre1} ${estudiante.apellido1} obtuvo 
 for (let i67 = 0; i67 <= 4; i67++) {
     acumulador67 = acumulador67 + notas67[i67];
 }
-acumulador67 = acumulador67 / notas67.length
-console.log(`El resultado es: ${acumulador67}`)
+acumulador67 = acumulador67 / notas67.length;
+console.log(`El resultado es: ${acumulador67}`);
