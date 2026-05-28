@@ -55,3 +55,13 @@ for (let i2 = 1; i2 <= 100; i2++) {
     acumulador1 = (acumulador1 + i2);
 }
 console.log(`El resultado es: ${acumulador1}`)
+
+
+for (let i3 = 1; i3 <= 20; i3++) {
+    if (i3 % 2 === 1) {
+        console.log(`El número ${i3} es impar`)
+    }
+    else {
+        console.log(`El número ${i3} es par`)
+    }
+}
